@@ -112,6 +112,7 @@
     <Compile Include="Uploader.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="allcontacts.json" />
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>

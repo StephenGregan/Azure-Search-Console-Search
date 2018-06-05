@@ -11,7 +11,7 @@ namespace ConsoleAppConsoleSearch
     class Helper
     {
 
-        public const string IndexName = "allcontactsindex";
+        public const string IndexName = "contactsindex";
 
         public static SearchServiceClient Initialize(string serviceName, string apiKey)
         {

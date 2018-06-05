@@ -103,6 +103,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllContacts.cs" />
     <Compile Include="Contacts.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />

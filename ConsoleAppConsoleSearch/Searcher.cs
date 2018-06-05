@@ -25,7 +25,7 @@ namespace ConsoleAppConsoleSearch
                     sp.Facets = facet;
                 }
 
-                DocumentSearchResult<Contacts> response = indexClient.Documents.Search<Contacts>(searchText, sp);
+                DocumentSearchResult<Welcome> response = indexClient.Documents.Search<Welcome>(searchText, sp);
 
                 if (response.Facets != null)
                 {
@@ -41,7 +41,7 @@ namespace ConsoleAppConsoleSearch
                 }
                 else
                 {
-                    foreach (SearchResult<Contacts> result in response.Results)
+                    foreach (SearchResult<Welcome> result in response.Results)
                     {
                         Console.WriteLine(result.Document);
                     }

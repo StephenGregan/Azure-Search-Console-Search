@@ -12,46 +12,46 @@ namespace ConsoleAppConsoleSearch
     class Uploader
     {
 
-        private List<Contacts> PrepareDocuments()
+        private List<Welcome> PrepareDocuments()
         {
-            List<Contacts> contactsDocuments = new List<Contacts>();
+            List<Welcome> contactsDocuments = new List<Welcome>();
+            
+            //Contacts m1 = new Contacts
+            //{
+            //    Id = "",
+            //    Name = "",
+            //    Active = false
 
-            Contacts m1 = new Contacts
-            {
-                Id = "",
-                Name = "",
-                Active = false
+            //};
 
-            };
+            //Contacts m2 = new Contacts
+            //{
+            //    Id = "",
+            //    Name = "",
+            //    Active = true
 
-            Contacts m2 = new Contacts
-            {
-                Id = "",
-                Name = "",
-                Active = true
+            //};
 
-            };
+            //Contacts m3 = new Contacts
+            //{
+            //    Id = "",
+            //    Name = "",
+            //    Active = false
 
-            Contacts m3 = new Contacts
-            {
-                Id = "",
-                Name = "",
-                Active = false
+            //};
 
-            };
+            //Contacts m4 = new Contacts
+            //{
+            //    Id = "",
+            //    Name = "",
+            //   Active = true
 
-            Contacts m4 = new Contacts
-            {
-                Id = "",
-                Name = "",
-               Active = true
+            //};
 
-            };
-
-            contactsDocuments.Add(m1);
-            contactsDocuments.Add(m2);
-            contactsDocuments.Add(m3);
-            contactsDocuments.Add(m4);
+            //contactsDocuments.Add(m1);
+            //contactsDocuments.Add(m2);
+            //contactsDocuments.Add(m3);
+            //contactsDocuments.Add(m4);
 
             return contactsDocuments;
 

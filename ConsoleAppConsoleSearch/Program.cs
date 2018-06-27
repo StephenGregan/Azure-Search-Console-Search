@@ -12,9 +12,9 @@ namespace ConsoleAppConsoleSearch
         static void Main(string[] args)
         {
 
-            string serviceName = "[ USERNAME ]";
+            string serviceName = "[USERNAME]";
 
-            string apiKey = "[ PASSWORD ]";
+            string apiKey = "[PASSWORD]";
 
             SearchServiceClient serviceClientApi = Helper.Initialize(serviceName, apiKey);
             ISearchIndexClient indexClientApi = serviceClientApi.Indexes.GetClient(Helper.IndexName);
